@@ -138,8 +138,9 @@
 
  @media (max-width: 768px) {
     .todo-wrapper {
-      width: 100%;
+      width: 90%;
       padding: 5%;
+      max-height: 70vh;
     }
   
     .todo-input-item input {
@@ -189,6 +190,7 @@
     .todo-wrapper {
       padding: 10%;
       margin-top: 5%;
+      max-height: 60vh;
     }
   
     .todo-input-item input {
@@ -216,11 +218,11 @@
     }
   
     .icons {
-      font-size: 30px;
+      font-size: 25px;
     }
   
     .check-icon {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   
@@ -229,6 +231,7 @@
     .todo-wrapper {
       width: 50%;
       padding: 2%;
+      max-height: 80vh;
     }
   
     .todo-input-item input {
