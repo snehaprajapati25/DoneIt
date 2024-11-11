@@ -136,3 +136,112 @@
     color:rgb(4, 196, 106)
  }
 
+ @media (max-width: 768px) {
+    .todo-wrapper {
+      width: 100%;
+      padding: 5%;
+    }
+  
+    .todo-input-item input {
+      width: 200px;
+    }
+  
+    .primaryBtn, .secondaryBtn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+    }
+  
+    .todo-list-item {
+      padding: 20px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .todo-list-item h3 {
+      font-size: 20px;
+    }
+  
+    .todo-list-item p {
+      font-size: 12px;
+    }
+  
+    .icons {
+      font-size: 30px;
+    }
+  
+    .check-icon {
+      font-size: 20px;
+    }
+  
+    .btn-area {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .secondaryBtn {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For devices with screen width <= 480px (mobiles) */
+  @media (max-width: 480px) {
+    .todo-wrapper {
+      padding: 10%;
+      margin-top: 5%;
+    }
+  
+    .todo-input-item input {
+      width: 100%;
+    }
+  
+    .primaryBtn, .secondaryBtn {
+      padding: 14px;
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .todo-list-item {
+      padding: 15px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .todo-list-item h3 {
+      font-size: 18px;
+    }
+  
+    .todo-list-item p {
+      font-size: 12px;
+    }
+  
+    .icons {
+      font-size: 30px;
+    }
+  
+    .check-icon {
+      font-size: 20px;
+    }
+  }
+  
+  /* For devices with screen width >= 1024px (laptops and larger screens) */
+  @media (min-width: 1024px) {
+    .todo-wrapper {
+      width: 50%;
+      padding: 2%;
+    }
+  
+    .todo-input-item input {
+      width: 250px;
+    }
+  
+    .primaryBtn, .secondaryBtn {
+      width: 60px;
+    }
+  
+    .todo-list-item {
+      padding: 25px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
